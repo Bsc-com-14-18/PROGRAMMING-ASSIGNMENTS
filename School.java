@@ -11,5 +11,12 @@ Student(){
             this.totNumberofStudents;
             }
 public void setName(String name){
+    this.name= name;
+}
+public String getName(){
+    return name;
+}
+public void setGrade(double[] grade){
+    this.grade=grade;
     
 }

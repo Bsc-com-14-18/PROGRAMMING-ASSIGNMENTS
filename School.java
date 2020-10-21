@@ -1,4 +1,4 @@
-public class Student {
+public class School {
     Private String name;
     Private double [] grade = new double[];
     Private int totNumberofStudents;
@@ -18,5 +18,7 @@ public String getName(){
 }
 public void setGrade(double[] grade){
     this.grade=grade;
-    
+}
+public void getGrade(){
+    return grade;
 }
